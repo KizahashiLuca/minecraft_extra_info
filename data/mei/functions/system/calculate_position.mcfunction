@@ -1,6 +1,6 @@
 ####################################
 ## Minecraft Extra Info           ##
-##   MC-Version : JE 1.14-1.16    ##
+##   MC-Version : JE 1.15-1.16    ##
 ##   Author     : @KizahashiLuca  ##
 ##   Date       : 07 May 2021     ##
 ##   Version    : β-1.1           ##
@@ -33,6 +33,7 @@ execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/temperate_2/m
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/the_end/main] run function mei:system/biome/the_end/main
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/the_nether/main] run function mei:system/biome/the_nether/main
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/upcoming/main] run function mei:system/biome/upcoming/main
+execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/the_nether/nether] run function mei:system/biome/the_nether/nether
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/the_void] run function mei:system/biome/the_void
 
 ## Remove a tag
