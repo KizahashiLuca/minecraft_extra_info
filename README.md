@@ -9,7 +9,7 @@ The informations
 ![SampleImage](https://github.com/KizahashiLuca/minecraft_extra_info/blob/master/sample_images.png)
 
 ## Downloads
-Download frome [Releases](https://github.com/KizahashiLuca/minecraft_extra_info/releases)
+Download from [Releases](https://github.com/KizahashiLuca/minecraft_extra_info/releases)
 
 ## Staff
 ### Twitter
