@@ -9,10 +9,10 @@
 ####################################
 
 ## Set biome
-execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/temperate_1/birch_forest] run function mei:system/biome/temperate_1/birch_forest
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/temperate_1/birch_forest_hills] run function mei:system/biome/temperate_1/birch_forest_hills
-execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/temperate_1/dark_forest] run function mei:system/biome/temperate_1/dark_forest
+execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/temperate_1/birch_forest] run function mei:system/biome/temperate_1/birch_forest
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/temperate_1/dark_forest_hills] run function mei:system/biome/temperate_1/dark_forest_hills
+execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/temperate_1/dark_forest] run function mei:system/biome/temperate_1/dark_forest
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/temperate_1/flower_forest] run function mei:system/biome/temperate_1/flower_forest
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/temperate_1/forest] run function mei:system/biome/temperate_1/forest
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/temperate_1/plains] run function mei:system/biome/temperate_1/plains

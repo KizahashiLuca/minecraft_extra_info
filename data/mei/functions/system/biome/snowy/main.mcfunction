@@ -13,7 +13,7 @@ execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/snowy/frozen_
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/snowy/ice_spikes] run function mei:system/biome/snowy/ice_spikes
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/snowy/snowy_beach] run function mei:system/biome/snowy/snowy_beach
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/snowy/snowy_mountains] run function mei:system/biome/snowy/snowy_mountains
-execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/snowy/snowy_taiga] run function mei:system/biome/snowy/snowy_taiga
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/snowy/snowy_taiga_hills] run function mei:system/biome/snowy/snowy_taiga_hills
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/snowy/snowy_taiga_mountains] run function mei:system/biome/snowy/snowy_taiga_mountains
+execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/snowy/snowy_taiga] run function mei:system/biome/snowy/snowy_taiga
 execute if entity @p[tag=MEI_TmpCalculatedPos,predicate=mei:biomes/snowy/snowy_tundra] run function mei:system/biome/snowy/snowy_tundra
