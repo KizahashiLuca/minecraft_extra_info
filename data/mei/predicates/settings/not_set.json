@@ -1,0 +1,22 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "MEI_SettingTime":{
+      "max": -1,
+      "min": -2147483648
+    },
+    "MEI_SettingPos":{
+      "max": -1,
+      "min": -2147483648
+    },
+    "MEI_SettingDir":{
+      "max": -1,
+      "min": -2147483648
+    },
+    "MEI_SettingBiome":{
+      "max": -1,
+      "min": -2147483648
+    }
+  }
+}

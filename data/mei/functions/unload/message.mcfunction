@@ -11,7 +11,7 @@
 tellraw @a [""]
 tellraw @a ["",{"text":"-----------------------------","color":"white"}]
 tellraw @a ["",{"text":" Minecraft Extra Info","color":"red","bold":true}]
-tellraw @a ["",{"text":"  - Unloaded","color":"yellow","bold":true}]
+tellraw @a ["",{"text":"  Unloaded","color":"yellow","bold":true}]
 tellraw @a ["",{"text":"   author  : ","color":"green","bold":false},{"text":"KizahashiLuca","color":"green","bold":false,"hoverEvent":{"action":"show_text","value":"Twitter @KizahashiLuca"},"clickEvent":{"action":"open_url","value":"http://twitter.com/KizahashiLuca"}}]
 tellraw @a ["",{"text":"   version : β-1.2","color":"dark_purple","bold":false}]
 tellraw @a ["",{"text":"-----------------------------","color":"white"}]

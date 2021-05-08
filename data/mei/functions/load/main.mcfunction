@@ -11,11 +11,9 @@
 ## Change gamerules
 gamerule maxCommandChainLength 65536
 
-## Send Title Message
-function mei:load/message
-
-## Remove scoreboards
-function mei:unload/remove_scoreboard
-
 ## Set scoreboards
 function mei:load/set_scoreboard
+## Send Title Message
+function mei:load/message
+## Set tags
+function mei:load/set_tag

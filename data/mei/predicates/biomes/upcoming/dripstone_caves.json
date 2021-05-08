@@ -2,6 +2,6 @@
   "condition": "minecraft:location_check",
   "entity": "this",
   "predicate": {
-    "biome": "minecraft:lush_caves"
+    "biome": "minecraft:dripstone_caves"
   }
 }

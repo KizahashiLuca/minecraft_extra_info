@@ -15,5 +15,7 @@ gamerule maxCommandChainLength 65536
 function mei:unload/message
 ## Remove scoreboards
 function mei:unload/remove_scoreboard
+## Remove storages
+function mei:unload/remove_storage
 ## Remove tags
-function mei:unload/remove_tags
+function mei:unload/remove_tag
