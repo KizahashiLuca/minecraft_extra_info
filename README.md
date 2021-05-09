@@ -2,6 +2,7 @@
 Minecraft Extra Info shows the informations in actionbar.
 
 The informations
+ - Daytime
  - Position (x, y, z)
  - Direction
  - Biome
