@@ -8,21 +8,30 @@
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
 
+## Add a tag
+tag @p[predicate=mei:system/not_set] add MEI_Calculating
+tag @p[tag=MEI_Calculating] add MEI_Calculated
+
+## Set daytime
+execute if entity @p[predicate=mei:system/daytime/set_daytime] run function mei:system/daytime/main
+
 ## Set position
-execute if entity @p[tag=!MEI_CalculatedPos,predicate=!mei:settings/not_set] run function mei:system/calculate_actionbar
+execute if entity @p[predicate=mei:system/position/set_position] run function mei:system/position/main
 
-## Trigger settings
-execute if entity @p[tag=!MEI_SettingPlayer,scores={MEI_Settings=1..}] run function mei:system/settings
-# execute if entity @p[scores={MEI_SettingPos=1..},tag=!MEI_SettingPosPlayer] run function mei:system/settings
-# execute if entity @p[scores={MEI_SettingDir=1..},tag=!MEI_SettingDirPlayer] run function mei:system/settings
-# execute if entity @p[scores={MEI_SettingBiome=1..},tag=!MEI_SettingBiomePlayer] run function mei:system/settings
+## Set direction
+execute if entity @p[predicate=mei:system/direction/set_direction] run function mei:system/direction/main
 
-## Remove tags
-tag @a remove MEI_CalculatedPos
-## Set scoreboards
-scoreboard players enable @a MEI_SettingTime
-scoreboard players enable @a MEI_SettingPos
-scoreboard players enable @a MEI_SettingDir
-scoreboard players enable @a MEI_SettingBiome
+## Set biome
+execute if entity @p[predicate=mei:system/biome/set_biome] run function mei:system/biome/main
+
+## Title actionbar
+title @p[tag=MEI_Calculating] actionbar ["",{"storage":"mei:storage","nbt":"actionbar.daytime","interpret":true},{"storage":"mei:storage","nbt":"actionbar.position","interpret":true},{"storage":"mei:storage","nbt":"actionbar.direction","interpret":true},{"storage":"mei:storage","nbt":"actionbar.biome","interpret":true}]
+
 ## Reset storage
 data remove storage mei:storage actionbar
+
+## Remove a tag
+tag @a remove MEI_Calculating
+
+## Set position loop
+execute if entity @p[predicate=mei:system/not_set] run function mei:system/main

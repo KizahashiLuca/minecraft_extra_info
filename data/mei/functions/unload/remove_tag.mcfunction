@@ -12,8 +12,8 @@
 tag @a remove MEI_SetPlayer
 
 ## Remove tags - calculation
-tag @a remove MEI_TmpCalculatedPos
-tag @a remove MEI_CalculatedPos
+tag @a remove MEI_Calculating
+tag @a remove MEI_Calculated
 ## Remove tags - settings
-tag @a remove MEI_TmpSettingPlayer
-tag @a remove MEI_SettingPlayer
+tag @a remove MEI_DoingSetUp
+tag @a remove MEI_DoneSetUp

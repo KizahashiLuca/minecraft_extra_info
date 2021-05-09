@@ -9,4 +9,4 @@
 ####################################
 
 ## OnTick
-execute if score #mei MEI_OnLoad matches 1 run function mei:system/main
+execute if score #mei MEI_OnLoad matches 1 run function mei:main

@@ -10,6 +10,7 @@
 
 ## Change gamerules
 gamerule maxCommandChainLength 65536
+gamerule sendCommandFeedback false
 
 ## Set scoreboards
 function mei:load/set_scoreboard

@@ -1,0 +1,82 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "predicate": {
+        "biome": "minecraft:birch_forest"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "predicate": {
+        "biome": "minecraft:birch_forest_hills"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "predicate": {
+        "biome": "minecraft:dark_forest"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "predicate": {
+        "biome": "minecraft:dark_forest_hills"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "predicate": {
+        "biome": "minecraft:flower_forest"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "predicate": {
+        "biome": "minecraft:forest"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "predicate": {
+        "biome": "minecraft:plains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "predicate": {
+        "biome": "minecraft:river"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "predicate": {
+        "biome": "minecraft:sunflower_plains"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "predicate": {
+        "biome": "minecraft:tall_birch_forest"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "entity": "this",
+      "predicate": {
+        "biome": "minecraft:tall_birch_hills"
+      }
+    }
+  ]
+}

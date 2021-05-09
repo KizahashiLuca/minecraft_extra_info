@@ -8,9 +8,6 @@
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
 
-## Change gamerules
-gamerule maxCommandChainLength 65536
-
 ## Send Title Message
 function mei:unload/message
 ## Remove scoreboards
@@ -19,3 +16,7 @@ function mei:unload/remove_scoreboard
 function mei:unload/remove_storage
 ## Remove tags
 function mei:unload/remove_tag
+
+## Change gamerules
+gamerule maxCommandChainLength 65536
+gamerule sendCommandFeedback true
