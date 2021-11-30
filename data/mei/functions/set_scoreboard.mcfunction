@@ -1,13 +1,15 @@
 ####################################
 ## Minecraft Extra Info           ##
-##   MC-Version : JE 1.15-1.16    ##
+##   MC-Version : JE 1.15-1.18    ##
 ##   Author     : @KizahashiLuca  ##
-##   Date       : 10 May 2021     ##
-##   Version    : β-2.0           ##
+##   Date       : 01 Dec 2021     ##
+##   Version    : β-3.0           ##
 ## (C) 2021 KizahashiLuca.        ##
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
 
+## Detect version
+function mei:load/detect_version
 ## Remove tags
 tag @a remove MEI_Calculated
 ## Reset scoreboards for position

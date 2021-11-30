@@ -2,39 +2,24 @@
   "condition": "minecraft:alternative",
   "terms": [
     {
-      "condition": "minecraft:location_check",
-      "entity": "this",
-      "predicate": {
-        "biome": "minecraft:end_barrens"
-      }
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/the_end/end_barrens"
     },
     {
-      "condition": "minecraft:location_check",
-      "entity": "this",
-      "predicate": {
-        "biome": "minecraft:end_highlands"
-      }
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/the_end/end_highlands"
     },
     {
-      "condition": "minecraft:location_check",
-      "entity": "this",
-      "predicate": {
-        "biome": "minecraft:end_midlands"
-      }
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/the_end/end_midlands"
     },
     {
-      "condition": "minecraft:location_check",
-      "entity": "this",
-      "predicate": {
-        "biome": "minecraft:small_end_islands"
-      }
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/the_end/small_end_islands"
     },
     {
-      "condition": "minecraft:location_check",
-      "entity": "this",
-      "predicate": {
-        "biome": "minecraft:the_end"
-      }
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/the_end/the_end"
     }
   ]
 }

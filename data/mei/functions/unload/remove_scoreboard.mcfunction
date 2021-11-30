@@ -1,14 +1,15 @@
 ####################################
 ## Minecraft Extra Info           ##
-##   MC-Version : JE 1.15-1.16    ##
+##   MC-Version : JE 1.15-1.18    ##
 ##   Author     : @KizahashiLuca  ##
-##   Date       : 10 May 2021     ##
-##   Version    : β-2.0           ##
+##   Date       : 01 Dec 2021     ##
+##   Version    : β-3.0           ##
 ## (C) 2021 KizahashiLuca.        ##
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
 
 ## Remove scoreboards
+scoreboard objectives remove MEI_Version
 scoreboard objectives remove MEI_OnLoad
 ## Remove scoreboards for position
 scoreboard objectives remove MEI_PosX
