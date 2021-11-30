@@ -3,23 +3,23 @@
   "terms": [
     {
       "condition": "minecraft:reference",
-      "name": "mei:system/biome/the_end/end_barrens"
+      "name": "mei:system/biome/snowy/frozen_river"
     },
     {
       "condition": "minecraft:reference",
-      "name": "mei:system/biome/the_end/end_highlands"
+      "name": "mei:system/biome/snowy/ice_spikes"
     },
     {
       "condition": "minecraft:reference",
-      "name": "mei:system/biome/the_end/end_midlands"
+      "name": "mei:system/biome/snowy/snowy_beach"
     },
     {
       "condition": "minecraft:reference",
-      "name": "mei:system/biome/the_end/small_end_islands"
+      "name": "mei:system/biome/snowy/snowy_taiga"
     },
     {
       "condition": "minecraft:reference",
-      "name": "mei:system/biome/the_end/the_end"
+      "name": "mei:system/biome/snowy/snowy_plains"
     }
   ]
 }

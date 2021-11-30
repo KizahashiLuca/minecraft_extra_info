@@ -8,6 +8,8 @@
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
 
+## Detect version
+function mei:load/detect_version
 ## Remove tags
 tag @a remove MEI_Calculated
 ## Reset scoreboards for position

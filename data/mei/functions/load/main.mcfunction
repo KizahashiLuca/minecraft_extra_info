@@ -14,6 +14,8 @@ gamerule sendCommandFeedback false
 
 ## Set scoreboards
 function mei:load/set_scoreboard
+## Detect version
+function mei:load/detect_version
 ## Send Title Message
 function mei:load/message
 ## Set tags

@@ -2,6 +2,6 @@
   "condition": "minecraft:location_check",
   "entity": "this",
   "predicate": {
-    "biome": "minecraft:deep_dark"
+    "biome": "minecraft:old_growth_pine_taiga"
   }
 }

@@ -9,6 +9,7 @@
 ####################################
 
 ## Add scoreboards
+scoreboard objectives add MEI_Version dummy
 scoreboard objectives add MEI_OnLoad dummy
 ## Add scoreboards for position
 scoreboard objectives add MEI_PosX dummy
@@ -36,6 +37,7 @@ scoreboard objectives add MEI_ShowDir dummy
 scoreboard objectives add MEI_ShowBiome dummy
 
 ## Set scoreboards
+scoreboard players set #mei MEI_Version 2860
 scoreboard players set #mei MEI_OnLoad 1
 ## Set scoreboards for calculation
 scoreboard players set #mei MEI_45 45

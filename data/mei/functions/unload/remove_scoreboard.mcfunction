@@ -9,6 +9,7 @@
 ####################################
 
 ## Remove scoreboards
+scoreboard objectives remove MEI_Version
 scoreboard objectives remove MEI_OnLoad
 ## Remove scoreboards for position
 scoreboard objectives remove MEI_PosX

@@ -18,6 +18,8 @@ function mei:unload/remove_storage
 
 ## Set scoreboards
 function mei:load/set_scoreboard
+## Detect version
+function mei:load/detect_version
 ## Send Title Message
 function mei:reload/message
 ## Set tags

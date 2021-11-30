@@ -8,11 +8,5 @@
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
 
-## Calculate actionbar
-execute if entity @p[predicate=mei:system/not_set] run function mei:system/main
-
-## Settings
-execute if entity @p[predicate=mei:settings/master] run function mei:settings/master
-
-## Set scoreboard
-function mei:set_scoreboard
+## Set biome
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/the_other/the_void] run data modify storage mei:storage actionbar.biome set value '["",{"text":"The Void","color":"green","bold":true}]'
