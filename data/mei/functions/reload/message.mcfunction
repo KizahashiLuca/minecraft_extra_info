@@ -17,5 +17,6 @@ execute if predicate mei:system/biome/version/1.15 run tellraw @a ["",{"text":" 
 execute if predicate mei:system/biome/version/1.16 run tellraw @a ["",{"text":"   version : β-4.0 - MC 1.16","color":"dark_purple","bold":false}]
 execute if predicate mei:system/biome/version/1.17 run tellraw @a ["",{"text":"   version : β-4.0 - MC 1.17","color":"dark_purple","bold":false}]
 execute if predicate mei:system/biome/version/1.18 run tellraw @a ["",{"text":"   version : β-4.0 - MC 1.18","color":"dark_purple","bold":false}]
+execute if predicate mei:system/biome/version/1.19 run tellraw @a ["",{"text":"   version : β-4.0 - MC 1.19","color":"dark_purple","bold":false}]
 tellraw @a ["",{"text":"-----------------------------","color":"white"}]
 tellraw @a [""]
