@@ -13,3 +13,4 @@ execute if predicate mei:system/biome/version/1.15 run function mei:system/biome
 execute if predicate mei:system/biome/version/1.16 run function mei:system/biome/version/1.16
 execute if predicate mei:system/biome/version/1.17 run function mei:system/biome/version/1.17
 execute if predicate mei:system/biome/version/1.18 run function mei:system/biome/version/1.18
+execute if predicate mei:system/biome/version/1.19 run function mei:system/biome/version/1.19
