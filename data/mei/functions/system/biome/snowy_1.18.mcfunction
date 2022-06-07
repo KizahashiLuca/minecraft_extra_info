@@ -1,9 +1,9 @@
 ####################################
 ## Minecraft Extra Info           ##
-##   MC-Version : JE 1.15-1.18    ##
+##   MC-Version : JE 1.15-1.19    ##
 ##   Author     : @KizahashiLuca  ##
-##   Date       : 01 Dec 2021     ##
-##   Version    : β-3.0           ##
+##   Date       : 08 Jun 2022     ##
+##   Version    : β-4.0           ##
 ## (C) 2021 KizahashiLuca.        ##
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
