@@ -9,6 +9,10 @@ The informations
 
 ![SampleImage](https://github.com/KizahashiLuca/minecraft_extra_info/blob/master/sample_images.png)
 
+## Version
+The supported version is
+*** Minecraft Java Edition v1.15-v1.19 ***
+
 ## Downloads
 Download from [Releases](https://github.com/KizahashiLuca/minecraft_extra_info/releases)
 
