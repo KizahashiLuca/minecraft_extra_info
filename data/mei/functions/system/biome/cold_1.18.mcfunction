@@ -9,10 +9,10 @@
 ####################################
 
 ## Set biome
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/old_growth_spruce_taiga] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Old Growth Spruce Taiga","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/old_growth_pine_taiga] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Old Growth Pine Taiga","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/windswept_gravelly_hills] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Windswept Gravelly Hills","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/windswept_hills] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Windswept Hills","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/stony_shore] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Stony Shore","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/taiga] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Taiga","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/windswept_forest] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Windswept Forest","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/old_growth_spruce_taiga] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.old_growth_spruce_taiga","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/old_growth_pine_taiga] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.old_growth_pine_taiga","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/windswept_gravelly_hills] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.windswept_gravelly_hills","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/windswept_hills] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.windswept_hills","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/stony_shore] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.stony_shore","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/taiga] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.taiga","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/cold/windswept_forest] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.windswept_forest","color":"green","bold":true}]'

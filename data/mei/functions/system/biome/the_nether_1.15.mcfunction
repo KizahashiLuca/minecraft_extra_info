@@ -9,4 +9,4 @@
 ####################################
 
 ## Set biome
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/the_nether/nether] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Nether","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/the_nether/nether] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.nether","color":"green","bold":true}]'

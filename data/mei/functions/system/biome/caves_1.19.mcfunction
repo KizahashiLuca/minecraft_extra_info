@@ -9,6 +9,6 @@
 ####################################
 
 ## Set biome
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/caves/dripstone_caves] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Dripstone Caves","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/caves/lush_caves] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Lush Caves","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/caves/deep_dark] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Deep Dark","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/caves/dripstone_caves] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.dripstone_caves","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/caves/lush_caves] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.lush_caves","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/caves/deep_dark] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.deep_dark","color":"green","bold":true}]'
