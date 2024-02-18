@@ -1,18 +1,18 @@
 ####################################
 ## Minecraft Extra Info           ##
-##   MC-Version : JE 1.15-1.19    ##
+##   MC-Version : JE 1.17-1.20    ##
 ##   Author     : @KizahashiLuca  ##
-##   Date       : 08 Jun 2022     ##
-##   Version    : β-4.0           ##
-## (C) 2021 KizahashiLuca.        ##
+##   Date       : 18 Feb 2024     ##
+##   Version    : β-5.0           ##
+## (C) 2024 KizahashiLuca.        ##
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
 
 ## Set biome
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/badlands] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Badlands","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/desert] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Desert","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/eroded_badlands] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Eroded Badlands","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/savanna] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Savanna","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/savanna_plateau] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Savanna Plateau","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/windswept_savanna] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Windswept Savanna","color":"green","bold":true}]'
-execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/wooded_badlands] run data modify storage mei:storage actionbar.biome set value '["",{"text":"Wooded Badlands","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/badlands] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.badlands","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/desert] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.desert","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/eroded_badlands] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.eroded_badlands","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/savanna] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.savanna","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/savanna_plateau] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.savanna_plateau","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/windswept_savanna] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.windswept_savanna","color":"green","bold":true}]'
+execute if entity @p[tag=MEI_Calculating,predicate=mei:system/biome/dry/wooded_badlands] run data modify storage mei:storage actionbar.biome set value '["",{"translate":"biome.minecraft.wooded_badlands","color":"green","bold":true}]'

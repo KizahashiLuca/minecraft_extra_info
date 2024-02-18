@@ -35,11 +35,11 @@
     },
     {
       "condition": "minecraft:reference",
-      "name": "mei:system/biome/temperate_2/mushroom_field_shore"
+      "name": "mei:system/biome/temperate_2/mushroom_fields"
     },
     {
       "condition": "minecraft:reference",
-      "name": "mei:system/biome/temperate_2/mushroom_fields"
+      "name": "mei:system/biome/temperate_2/mushroom_field_shore"
     },
     {
       "condition": "minecraft:reference",
