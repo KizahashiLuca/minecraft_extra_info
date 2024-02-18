@@ -1,10 +1,10 @@
 ####################################
 ## Minecraft Extra Info           ##
-##   MC-Version : JE 1.17-1.19    ##
+##   MC-Version : JE 1.17-1.20    ##
 ##   Author     : @KizahashiLuca  ##
-##   Date       : 08 Jun 2022     ##
-##   Version    : β-4.0           ##
-## (C) 2021 KizahashiLuca.        ##
+##   Date       : 18 Feb 2024     ##
+##   Version    : β-5.0           ##
+## (C) 2024 KizahashiLuca.        ##
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
 
@@ -16,5 +16,6 @@ tellraw @a ["",{"text":"   author  : ","color":"green","bold":false},{"text":"Ki
 tellraw @a[predicate=mei:system/biome/version/1.17] ["",{"text":"   version : β-4.0 - MC 1.17","color":"dark_purple","bold":false}]
 tellraw @a[predicate=mei:system/biome/version/1.18] ["",{"text":"   version : β-4.0 - MC 1.18","color":"dark_purple","bold":false}]
 tellraw @a[predicate=mei:system/biome/version/1.19] ["",{"text":"   version : β-4.0 - MC 1.19","color":"dark_purple","bold":false}]
+tellraw @a[predicate=mei:system/biome/version/1.20] ["",{"text":"   version : β-5.0 - MC 1.20","color":"dark_purple","bold":false}]
 tellraw @a ["",{"text":"-----------------------------","color":"white"}]
 tellraw @a [""]

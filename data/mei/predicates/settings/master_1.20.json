@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:settings/main"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:settings/daytime"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:settings/position"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:settings/direction"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:settings/biome"
+    }
+  ]
+}

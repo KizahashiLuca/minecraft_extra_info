@@ -7,6 +7,10 @@
     },
     {
       "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/bamboo_jungle_hills"
+    },
+    {
+      "condition": "minecraft:reference",
       "name": "mei:system/biome/temperate_2/beach"
     },
     {
@@ -15,7 +19,19 @@
     },
     {
       "condition": "minecraft:reference",
-      "name": "mei:system/biome/temperate_2/sparse_jungle"
+      "name": "mei:system/biome/temperate_2/jungle_edge"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/jungle_hills"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/modified_jungle"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/modified_jungle_edge"
     },
     {
       "condition": "minecraft:reference",
@@ -23,7 +39,15 @@
     },
     {
       "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/mushroom_field_shore"
+    },
+    {
+      "condition": "minecraft:reference",
       "name": "mei:system/biome/temperate_2/swamp"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/temperate_2/swamp_hills"
     }
   ]
 }
