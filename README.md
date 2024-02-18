@@ -21,7 +21,7 @@ Minecraft Extra Info は、マインクラフトのゲーム中、知りたく�
 [@KizahashiLuca][twitter]
 
 ## License
-(C) 2019-2023 KizahashiLuca.  
+(C) 2019-2024 KizahashiLuca.  
 Licensed under CC BY-SA 4.0.
 
 
@@ -51,7 +51,7 @@ Download from [Releases](https://github.com/KizahashiLuca/minecraft_extra_info/r
 [@KizahashiLuca][twitter]
 
 ## License
-(C) 2019-2023 KizahashiLuca.  
+(C) 2019-2024 KizahashiLuca.  
 Licensed under CC BY-SA 4.0.
 
 
