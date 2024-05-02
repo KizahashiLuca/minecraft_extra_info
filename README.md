@@ -10,8 +10,12 @@ Minecraft Extra Info は、マインクラフトのゲーム中、知りたく�
 ![SampleImage](https://github.com/KizahashiLuca/minecraft_extra_info/blob/master/sample_images.png)
 
 ## バージョン
-サポートしているバージョンは以下です。
-*** Minecraft Java Edition v1.17-v1.20 ***
+> [!IMPORTANT]
+> サポートしているバージョンは以下です。  
+> ***Minecraft Java Edition v1.17-v1.20.6***
+
+
+v1.17以降のすべてのバージョンを同じデータパックにてサポートしています。
 
 ## ダウンロード
 ダウンロードは [Releases](https://github.com/KizahashiLuca/minecraft_extra_info/releases) の最新バージョンを。
@@ -40,8 +44,11 @@ The informations
 ![SampleImage](https://github.com/KizahashiLuca/minecraft_extra_info/blob/master/sample_images.png)
 
 ## Version
-The supported version is
-*** Minecraft Java Edition v1.17-v1.20 ***
+> [!IMPORTANT]
+> The supported version is  
+> ***Minecraft Java Edition v1.17-v1.20.6***
+
+All versions since v1.17 are supported with the same datapack.
 
 ## Downloads
 Download from [Releases](https://github.com/KizahashiLuca/minecraft_extra_info/releases)

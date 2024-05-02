@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.20/caves/lush_caves"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.20/caves/dripstone_caves"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.20/caves/deep_dark"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:location_check",
+  "entity": "this",
+  "predicate": {
+    "biomes": [
+      "minecraft:badlands",
+      "minecraft:desert",
+      "minecraft:eroded_badlands",
+      "minecraft:savanna",
+      "minecraft:savanna_plateau",
+      "minecraft:windswept_savanna",
+      "minecraft:wooded_badlands"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:location_check",
+  "entity": "this",
+  "predicate": {
+    "biomes": [
+      "minecraft:lush_caves",
+      "minecraft:dripstone_caves",
+      "minecraft:deep_dark"
+    ]
+  }
+}
