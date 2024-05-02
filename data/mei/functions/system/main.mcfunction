@@ -1,16 +1,16 @@
 ####################################
 ## Minecraft Extra Info           ##
-##   MC-Version : JE 1.17-1.20    ##
+##   MC-Version : JE 1.17-1.20.6  ##
 ##   Author     : @KizahashiLuca  ##
-##   Date       : 18 Feb 2024     ##
-##   Version    : β-5.0           ##
-## (C) 2024 KizahashiLuca.        ##
+##   Date       : 03 May 2024     ##
+##   Version    : β-6.0           ##
+## (C) 2019-2024 KizahashiLuca.   ##
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
 
 ## Add a tag
 tag @p[predicate=mei:system/biome/version/1.17-1.19,predicate=mei:system/not_set_1.17] add MEI_Calculating
-tag @p[predicate=mei:system/biome/version/1.20,predicate=mei:system/not_set_1.20] add MEI_Calculating
+tag @p[predicate=mei:system/biome/version/1.20-,predicate=mei:system/not_set_1.20] add MEI_Calculating
 tag @p[tag=MEI_Calculating] add MEI_Calculated
 
 ## Set daytime
@@ -36,4 +36,4 @@ tag @a remove MEI_Calculating
 
 ## Set position loop
 execute if entity @p[predicate=mei:system/biome/version/1.17-1.19,predicate=mei:system/not_set_1.17] run function mei:system/main
-execute if entity @p[predicate=mei:system/biome/version/1.20,predicate=mei:system/not_set_1.20] run function mei:system/main
+execute if entity @p[predicate=mei:system/biome/version/1.20-,predicate=mei:system/not_set_1.20] run function mei:system/main

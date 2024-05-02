@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/dry/badlands"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/dry/desert"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/dry/eroded_badlands"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/dry/savanna"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/dry/savanna_plateau"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/dry/windswept_savanna"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/dry/wooded_badlands"
+    }
+  ]
+}

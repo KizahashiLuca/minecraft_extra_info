@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:location_check",
+  "entity": "this",
+  "predicate": {
+    "biomes": [
+      "minecraft:the_void"
+    ]
+  }
+}
