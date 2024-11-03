@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/mountains/frozen_peaks"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/mountains/grove"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/mountains/jagged_peaks"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/mountains/meadow"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/mountains/snowy_slopes"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.19/mountains/stony_peaks"
+    }
+  ]
+}

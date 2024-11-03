@@ -1,0 +1,37 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.17/snowy/frozen_river"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.17/snowy/ice_spikes"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.17/snowy/snowy_beach"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.17/snowy/snowy_mountains"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.17/snowy/snowy_taiga"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.17/snowy/snowy_taiga_hills"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.17/snowy/snowy_taiga_mountains"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "mei:system/biome/1.17/snowy/snowy_tundra"
+    }
+  ]
+}

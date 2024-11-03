@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:location_check",
+  "entity": "this",
+  "predicate": {
+    "biomes": [
+      "minecraft:bamboo_jungle",
+      "minecraft:beach",
+      "minecraft:jungle",
+      "minecraft:sparse_jungle",
+      "minecraft:mushroom_fields",
+      "minecraft:swamp",
+      "minecraft:mangrove_swamp"
+    ]
+  }
+}
