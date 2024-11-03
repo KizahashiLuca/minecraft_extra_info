@@ -10,14 +10,19 @@ Minecraft Extra Info は、マインクラフトのゲーム中、知りたく�
 ![SampleImage](https://github.com/KizahashiLuca/minecraft_extra_info/blob/master/sample_images.png)
 
 ## バージョン
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > サポートしているバージョンは以下です。  
-> ***Minecraft Java Edition v1.17-v1.20.6***
-
-v1.17以降のすべてのバージョンを同じデータパックにてサポートしています。
+> ***Minecraft Java Edition v1.17-v1.21.4***
 
 ## ダウンロード
-ダウンロードは [Releases](https://github.com/KizahashiLuca/minecraft_extra_info/releases) の最新バージョンを。
+> [!NOTE]  
+> v1.21 以降のバージョンを使用している方は、以下のリンクから最新のデータパックをダウンロード！  
+> \>\>\> [Release Page](https://github.com/KizahashiLuca/minecraft_extra_info/releases) <<<
+
+> [!WARNING]  
+> v1.17 から v1.20.6 までのバージョンを使用している方は、以下のリンクから過去のデータパックをダウンロード！  
+> v1.17 から v1.20.6 までのすべてのバージョンを同じデータパックにてサポートしています。  
+> \>\>\> [Beta 6.1](https://github.com/KizahashiLuca/minecraft_extra_info/releases/tag/beta-6.1) <<<
 
 ## スタッフ
 ### Twitter
@@ -30,6 +35,7 @@ Licensed under CC BY-SA 4.0.
 
 [twitter]:https://www.twitter.com/KizahashiLuca
 
+---
 
 # Minecraft Extra Info (English)
 Minecraft Extra Info shows the informations in actionbar.
@@ -43,14 +49,19 @@ The informations
 ![SampleImage](https://github.com/KizahashiLuca/minecraft_extra_info/blob/master/sample_images.png)
 
 ## Version
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The supported version is  
-> ***Minecraft Java Edition v1.17-v1.20.6***
-
-All versions since v1.17 are supported with the same datapack.
+> ***Minecraft Java Edition v1.17-v1.21.4***
 
 ## Downloads
-Download from [Releases](https://github.com/KizahashiLuca/minecraft_extra_info/releases)
+> [!NOTE]  
+> You use version since v1.21, download the LATEST version datapack from the link below.  
+> \>\>\> [Release Page](https://github.com/KizahashiLuca/minecraft_extra_info/releases) <<<
+
+> [!WARNING]  
+> You use v1.17-v1.20.6, download the previous version datapack from the link below.  
+> All versions v1.17-v1.20.6 are supported with the same datapack.  
+> \>\>\> [Beta 6.1](https://github.com/KizahashiLuca/minecraft_extra_info/releases/tag/beta-6.1) <<<
 
 ## Staff
 ### Twitter
