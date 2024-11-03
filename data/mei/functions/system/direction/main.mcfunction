@@ -22,3 +22,4 @@ execute if entity @p[predicate=mei:system/direction/dir_setnorth] run data modif
 execute if entity @p[predicate=mei:system/direction/dir_setnortheast] run data modify storage mei:storage actionbar.direction set value '["",{"text":"NE","color":"aqua","bold":true},{"text":"   "}]'
 execute if entity @p[predicate=mei:system/direction/dir_seteast] run data modify storage mei:storage actionbar.direction set value '["",{"text":"E","color":"aqua","bold":true},{"text":"   "}]'
 execute if entity @p[predicate=mei:system/direction/dir_setsoutheast] run data modify storage mei:storage actionbar.direction set value '["",{"text":"SE","color":"aqua","bold":true},{"text":"   "}]'
+execute if entity @p[predicate=mei:system/direction/dir_setsouth_afterlap] run data modify storage mei:storage actionbar.direction set value '["",{"text":"S","color":"aqua","bold":true},{"text":"   "}]'
