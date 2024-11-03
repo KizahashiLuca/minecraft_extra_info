@@ -7,7 +7,7 @@ Minecraft Extra Info は、マインクラフトのゲーム中、知りたく�
  - 方角
  - バイオーム
 
-![SampleImage](https://github.com/KizahashiLuca/minecraft_extra_info/blob/master/sample_images.png)
+![SampleImage](https://github.com/KizahashiLuca/minecraft_extra_info/blob/master/sample_image_jp.png)
 
 ## バージョン
 > [!IMPORTANT]  
@@ -46,7 +46,7 @@ The informations
  - Direction
  - Biome
 
-![SampleImage](https://github.com/KizahashiLuca/minecraft_extra_info/blob/master/sample_images.png)
+![SampleImage](https://github.com/KizahashiLuca/minecraft_extra_info/blob/master/sample_image_en.png)
 
 ## Version
 > [!IMPORTANT]  
