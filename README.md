@@ -10,14 +10,19 @@ Minecraft Extra Info は、マインクラフトのゲーム中、知りたく�
 ![SampleImage](https://github.com/KizahashiLuca/minecraft_extra_info/blob/master/sample_images.png)
 
 ## バージョン
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > サポートしているバージョンは以下です。  
-> ***Minecraft Java Edition v1.17-v1.20.6***
+> ***Minecraft Java Edition v1.21***
 
-v1.17以降のすべてのバージョンを同じデータパックにてサポートしています。
+v1.21以降のすべてのバージョンを同じデータパックにてサポートしています。
 
 ## ダウンロード
-ダウンロードは [Releases](https://github.com/KizahashiLuca/minecraft_extra_info/releases) の最新バージョンを。
+ダウンロードは [Releases](https://github.com/KizahashiLuca/minecraft_extra_info/releases) の最新バージョンを。  
+\>\>\> [Beta 7.0](https://github.com/KizahashiLuca/minecraft_extra_info/releases/tag/beta-7.0) <<<
+
+> [!NOTE]  
+> v1.17-v1.20.6までをご利用の場合、以下のリンクのzipファイルからダウンロードしてください。  
+> \>\>\> [Beta 6.0](https://github.com/KizahashiLuca/minecraft_extra_info/releases/tag/beta-6.0) <<<
 
 ## スタッフ
 ### Twitter
@@ -43,14 +48,19 @@ The informations
 ![SampleImage](https://github.com/KizahashiLuca/minecraft_extra_info/blob/master/sample_images.png)
 
 ## Version
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The supported version is  
-> ***Minecraft Java Edition v1.17-v1.20.6***
+> ***Minecraft Java Edition v1.21-***
 
-All versions since v1.17 are supported with the same datapack.
+All versions since v1.21 are supported with the same datapack.
 
 ## Downloads
-Download from [Releases](https://github.com/KizahashiLuca/minecraft_extra_info/releases)
+Download the [latest](https://github.com/KizahashiLuca/minecraft_extra_info/releases) datapack from the link below.  
+\>\>\> [Beta 7.0](https://github.com/KizahashiLuca/minecraft_extra_info/releases/tag/beta-7.0) <<<
+
+> [!NOTE]  
+> You use v1.17-v1.20.6, download the previous version datapack from the link below.  
+> \>\>\> [Beta 6.0](https://github.com/KizahashiLuca/minecraft_extra_info/releases/tag/beta-6.0) <<<
 
 ## Staff
 ### Twitter

@@ -1,7 +1,0 @@
-{
-  "condition": "minecraft:location_check",
-  "entity": "this",
-  "predicate": {
-    "biome": "minecraft:old_growth_birch_forest"
-  }
-}

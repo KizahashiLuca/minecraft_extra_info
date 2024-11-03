@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biomes": [
+      "minecraft:frozen_river",
+      "minecraft:ice_spikes",
+      "minecraft:snowy_beach",
+      "minecraft:snowy_taiga",
+      "minecraft:snowy_plains"
+    ]
+  }
+}
