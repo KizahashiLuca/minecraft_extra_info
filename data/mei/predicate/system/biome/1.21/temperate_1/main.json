@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biomes": [
+      "minecraft:birch_forest",
+      "minecraft:dark_forest",
+      "minecraft:flower_forest",
+      "minecraft:forest",
+      "minecraft:plains",
+      "minecraft:river",
+      "minecraft:sunflower_plains",
+      "minecraft:old_growth_birch_forest"
+    ]
+  }
+}

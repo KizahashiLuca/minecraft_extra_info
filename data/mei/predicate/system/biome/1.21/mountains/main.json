@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biomes": [
+      "minecraft:frozen_peaks",
+      "minecraft:grove",
+      "minecraft:jagged_peaks",
+      "minecraft:meadow",
+      "minecraft:snowy_slopes",
+      "minecraft:stony_peaks",
+      "minecraft:cherry_grove"
+    ]
+  }
+}

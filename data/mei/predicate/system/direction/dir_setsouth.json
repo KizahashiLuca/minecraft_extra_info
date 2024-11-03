@@ -1,0 +1,45 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"MEI_Calculating\"]}"
+      }
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "MEI_ShowDir": {
+              "min": 1,
+              "max": 2147483647
+            },
+            "MEI_Direction": {
+              "min": 0,
+              "max": 0
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "MEI_ShowDir": {
+              "min": 1,
+              "max": 2147483647
+            },
+            "MEI_Direction": {
+              "min": 8,
+              "max": 8
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
