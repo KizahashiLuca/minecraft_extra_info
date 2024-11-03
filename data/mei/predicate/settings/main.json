@@ -1,22 +1,25 @@
-[
-  {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:entity_properties",
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Tags:[\"MEI_DoneSetUp\"]}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
       "entity": "this",
-      "predicate": {
-        "nbt": "{Tags:[\"MEI_DoneSetUp\"]}"
+      "scores": {
+        "MEI_Settings":{
+          "min": 1,
+          "max": 2147483647
+        }
       }
     }
-  },
-  {
-    "condition": "minecraft:entity_scores",
-    "entity": "this",
-    "scores": {
-      "MEI_Settings":{
-        "min": 1,
-        "max": 2147483647
-      }
-    }
-  }
-]
+  ]
+}
