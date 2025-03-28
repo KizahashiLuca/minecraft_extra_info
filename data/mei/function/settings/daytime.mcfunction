@@ -1,10 +1,10 @@
 ####################################
 ## Minecraft Extra Info           ##
-##   MC-Version : JE 1.21-        ##
+##   MC-Version : JE 1.21.5-      ##
 ##   Author     : @KizahashiLuca  ##
-##   Date       : 04 Nov 2024     ##
-##   Version    : β-7.0           ##
-## (C) 2019-2024 KizahashiLuca.   ##
+##   Date       : 29 Mar 2025     ##
+##   Version    : β-8.0           ##
+## (C) 2019-2025 KizahashiLuca.   ##
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
 
@@ -13,8 +13,8 @@ tag @p[predicate=mei:settings/daytime] add MEI_DoingSetUpDaytime
 tag @p[tag=MEI_DoingSetUpDaytime] add MEI_DoneSetUpDaytime
 
 ## Send messages of setting daytime
-tellraw @p[tag=MEI_DoingSetUpDaytime,scores={MEI_ShowTime=1}] ["",{"text":" [Extra Info] ","color":"gray"},{"text":"Removed Daytime","color":"light_purple"}]
-tellraw @p[tag=MEI_DoingSetUpDaytime,scores={MEI_ShowTime=0}] ["",{"text":" [Extra Info] ","color":"gray"},{"text":"Showed Daytime","color":"aqua"}]
+tellraw @p[tag=MEI_DoingSetUpDaytime,scores={MEI_ShowTime=1}] ["",{"text":" [Extra Info] ","color":"gray"},{"text":"Hidden Daytime","color":"light_purple"}]
+tellraw @p[tag=MEI_DoingSetUpDaytime,scores={MEI_ShowTime=0}] ["",{"text":" [Extra Info] ","color":"gray"},{"text":"Displayed Daytime","color":"aqua"}]
 
 ## Set scoreboard
 scoreboard players add @p[tag=MEI_DoingSetUpDaytime] MEI_ShowTime 1

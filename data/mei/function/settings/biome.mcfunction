@@ -1,10 +1,10 @@
 ####################################
 ## Minecraft Extra Info           ##
-##   MC-Version : JE 1.21-        ##
+##   MC-Version : JE 1.21.5-      ##
 ##   Author     : @KizahashiLuca  ##
-##   Date       : 04 Nov 2024     ##
-##   Version    : β-7.0           ##
-## (C) 2019-2024 KizahashiLuca.   ##
+##   Date       : 29 Mar 2025     ##
+##   Version    : β-8.0           ##
+## (C) 2019-2025 KizahashiLuca.   ##
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
 
@@ -13,8 +13,8 @@ tag @p[predicate=mei:settings/biome] add MEI_DoingSetUpBiome
 tag @p[tag=MEI_DoingSetUpBiome] add MEI_DoneSetUpBiome
 
 ## Send messages of setting biome
-tellraw @p[tag=MEI_DoingSetUpBiome,scores={MEI_ShowBiome=1}] ["",{"text":" [Extra Info] ","color":"gray"},{"text":"Removed Biome","color":"light_purple"}]
-tellraw @p[tag=MEI_DoingSetUpBiome,scores={MEI_ShowBiome=0}] ["",{"text":" [Extra Info] ","color":"gray"},{"text":"Showed Biome","color":"aqua"}]
+tellraw @p[tag=MEI_DoingSetUpBiome,scores={MEI_ShowBiome=1}] ["",{"text":" [Extra Info] ","color":"gray"},{"text":"Hidden Biome","color":"light_purple"}]
+tellraw @p[tag=MEI_DoingSetUpBiome,scores={MEI_ShowBiome=0}] ["",{"text":" [Extra Info] ","color":"gray"},{"text":"Displayed Biome","color":"aqua"}]
 
 ## Set scoreboard
 scoreboard players add @p[tag=MEI_DoingSetUpBiome] MEI_ShowBiome 1
