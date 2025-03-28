@@ -12,12 +12,16 @@ Minecraft Extra Info は、マインクラフトのゲーム中、知りたく�
 ## バージョン
 > [!IMPORTANT]  
 > サポートしているバージョンは以下です。  
-> ***Minecraft Java Edition v1.17-v1.21.4***
+> ***Minecraft Java Edition v1.17-v1.21.5***
 
 ## ダウンロード
 > [!NOTE]  
-> v1.21 以降のバージョンを使用している方は、以下のリンクから最新のデータパックをダウンロード！  
+> v1.21.5 以降のバージョンを使用している方は、以下のリンクから最新のデータパックをダウンロード！  
 > \>\>\> [Release Page](https://github.com/KizahashiLuca/minecraft_extra_info/releases) <<<
+
+> [!WARNING]  
+> v1.21 から v1.21.4 までのバージョンを使用している方は、以下のリンクから過去のデータパックをダウンロード！  
+> \>\>\> [Beta 7.0](https://github.com/KizahashiLuca/minecraft_extra_info/releases/tag/beta-7.0) <<<
 
 > [!WARNING]  
 > v1.17 から v1.20.6 までのバージョンを使用している方は、以下のリンクから過去のデータパックをダウンロード！  
@@ -29,7 +33,7 @@ Minecraft Extra Info は、マインクラフトのゲーム中、知りたく�
 [@KizahashiLuca][twitter]
 
 ## License
-(C) 2019-2024 KizahashiLuca.  
+(C) 2019-2025 KizahashiLuca.  
 Licensed under CC BY-SA 4.0.
 
 
@@ -51,12 +55,16 @@ The informations
 ## Version
 > [!IMPORTANT]  
 > The supported version is  
-> ***Minecraft Java Edition v1.17-v1.21.4***
+> ***Minecraft Java Edition v1.17-v1.21.5***
 
 ## Downloads
 > [!NOTE]  
-> You use version since v1.21, download the LATEST version datapack from the link below.  
+> You use version since v1.21.5, download the LATEST version datapack from the link below.  
 > \>\>\> [Release Page](https://github.com/KizahashiLuca/minecraft_extra_info/releases) <<<
+
+> [!WARNING]  
+> You use v1.21-v1.21.4, download the previous version datapack from the link below.  
+> \>\>\> [Beta 7.0](https://github.com/KizahashiLuca/minecraft_extra_info/releases/tag/beta-7.0) <<<
 
 > [!WARNING]  
 > You use v1.17-v1.20.6, download the previous version datapack from the link below.  
@@ -68,7 +76,7 @@ The informations
 [@KizahashiLuca][twitter]
 
 ## License
-(C) 2019-2024 KizahashiLuca.  
+(C) 2019-2025 KizahashiLuca.  
 Licensed under CC BY-SA 4.0.
 
 

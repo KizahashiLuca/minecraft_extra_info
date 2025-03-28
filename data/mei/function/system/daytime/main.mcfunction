@@ -1,10 +1,10 @@
 ####################################
 ## Minecraft Extra Info           ##
-##   MC-Version : JE 1.21-        ##
+##   MC-Version : JE 1.21.5-      ##
 ##   Author     : @KizahashiLuca  ##
-##   Date       : 04 Nov 2024     ##
-##   Version    : β-7.0           ##
-## (C) 2019-2024 KizahashiLuca.   ##
+##   Date       : 29 Mar 2025     ##
+##   Version    : β-8.0           ##
+## (C) 2019-2025 KizahashiLuca.   ##
 ## Licensed under CC BY-SA 4.0.   ##
 ####################################
 
@@ -19,7 +19,7 @@ scoreboard players operation @p[tag=MEI_Calculating] MEI_DayTimeMin %= #mei MEI_
 scoreboard players operation @p[tag=MEI_Calculating] MEI_DayTimeMin *= #mei MEI_60
 scoreboard players operation @p[tag=MEI_Calculating] MEI_DayTimeMin /= #mei MEI_1000
 
-execute if entity @p[predicate=mei:system/daytime/day_setzero] run data modify storage mei:storage actionbar.daytime set value '["",{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeHour"},"color":"gold","bold":true},{"text":":0","color":"gold","bold":true},{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeMin"},"color":"gold","bold":true},{"text":"   "}]'
-execute if entity @p[predicate=mei:system/daytime/day_notsetzero] run data modify storage mei:storage actionbar.daytime set value '["",{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeHour"},"color":"gold","bold":true},{"text":":","color":"gold","bold":true},{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeMin"},"color":"gold","bold":true},{"text":"   "}]'
-execute if entity @p[predicate=mei:system/daytime/night_setzero] run data modify storage mei:storage actionbar.daytime set value '["",{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeHour"},"color":"yellow","bold":true},{"text":":0","color":"yellow","bold":true},{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeMin"},"color":"yellow","bold":true},{"text":"   "}]'
-execute if entity @p[predicate=mei:system/daytime/night_notsetzero] run data modify storage mei:storage actionbar.daytime set value '["",{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeHour"},"color":"yellow","bold":true},{"text":":","color":"yellow","bold":true},{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeMin"},"color":"yellow","bold":true},{"text":"   "}]'
+execute if entity @p[predicate=mei:system/daytime/day_setzero] run data modify storage mei:storage actionbar.daytime set value ["",{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeHour"},"color":"gold","bold":true},{"text":":0","color":"gold","bold":true},{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeMin"},"color":"gold","bold":true},{"text":"   "}]
+execute if entity @p[predicate=mei:system/daytime/day_notsetzero] run data modify storage mei:storage actionbar.daytime set value ["",{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeHour"},"color":"gold","bold":true},{"text":":","color":"gold","bold":true},{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeMin"},"color":"gold","bold":true},{"text":"   "}]
+execute if entity @p[predicate=mei:system/daytime/night_setzero] run data modify storage mei:storage actionbar.daytime set value ["",{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeHour"},"color":"yellow","bold":true},{"text":":0","color":"yellow","bold":true},{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeMin"},"color":"yellow","bold":true},{"text":"   "}]
+execute if entity @p[predicate=mei:system/daytime/night_notsetzero] run data modify storage mei:storage actionbar.daytime set value ["",{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeHour"},"color":"yellow","bold":true},{"text":":","color":"yellow","bold":true},{"score":{"name":"@p[tag=MEI_Calculating]","objective": "MEI_DayTimeMin"},"color":"yellow","bold":true},{"text":"   "}]
